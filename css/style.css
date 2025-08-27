@@ -1,0 +1,76 @@
+/* General Layout */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: linear-gradient(120deg, #89f7fe, #66a6ff);
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Cards */
+.card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+/* Section-specific accent colors */
+.basics h2 { color: #16a085; }
+.functions h2 { color: #8e44ad; }
+.loops h2 { color: #d35400; }
+.dom h2 { color: #2980b9; }
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #3498db;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+/* DOM Message styling */
+#dom-message {
+  margin-top: 10px;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(255,255,255,0.9);
+  margin-top: 30px;
+}
